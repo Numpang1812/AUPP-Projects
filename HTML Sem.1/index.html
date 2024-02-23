@@ -1,0 +1,125 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>Website Test</title>
+    <link rel="icon" href="HTMLImages/NGSLogo.png">
+    <link rel="stylesheet" href="NGS.css">
+</head>
+<body style="background-color: black;">
+    <table align="center">
+        <tr> <!--Table Row -->
+            <td>
+                <div class="imageNGS">
+                    <img src="HTMLImages/NGSLogo.png" alt="NGS Logo" style="width: 150px">  
+                </div>
+            </td>
+            <td>
+                <h1>Welcome to New Generation School!</h1>
+            </td>
+            <td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td style="font-size:20px; text-align:center" align="center"> <!-- Table Data -->
+                <p style="color:rgb(0, 199, 132); font-family:Verdana, Geneva, Tahoma, sans-serif"> The Only School With A 21st Century Education. Enroll Today! </p>
+            </td>
+        </tr>
+    </table>
+    <hr color="green" width="80%" size="5px">
+    <div align="center" style="color:rgb(0, 199, 132); font-family:Verdana, Geneva, Tahoma, sans-serif">
+        <h3><a href="studentPortal.html" style="color:rgb(0, 199, 132)">STUDENT PORTAL</a> | 
+            <a href="index.html" style="color:rgb(0, 199, 132)">HOME</a> | 
+            <a href="programs.html" style="color:rgb(0, 199, 132)">PROGRAMS</a> | 
+            <a href="registration.html" style="color:rgb(0, 199, 132)">REGISTRATION</a> | 
+            <a href="studentLife.html" style="color:rgb(0, 199, 132)">STUDENT LIFE</a> | 
+            <a href="history.html" style="color:rgb(0, 199, 132)">HISTORY</a> | 
+            <a href="contactUs.html" style="color:rgb(0, 199, 132)">CONTACT US</a></h3>
+    </div>
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    <div align="center">
+        <h2 style="color:rgb(0, 199, 132); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align:center; font-size:30px; margin-left: 30px;"> NEWS </h2>
+        <table class="articles">
+            <tr>
+                <td>
+                    <div class="newsArticle" style="border: 5px solid limegreen; display: flex; width: 600px; height: 400px;">
+                        <a href="newsArticle1.html" style="text-decoration: none; display: flex;">
+                            <img src="HTMLImages/StudentsA.jpg" width="400" height="400" style="margin-right: 30px;">
+                            <div>
+                                <h3 style="text-align: left;">25th November 2023.</h3>
+                                <h3 style="text-align: left;">33 Students From New Generation School Received Grade A's In The National Exam.</h3>
+                                <p style="text-align: left; color:rgb(0, 199, 132); font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 14px"> Cambodia's national exam - also known as, the Baccularate Exam - is one of the most important examinations for all high school students...</p>
+                                <input type="button" value="Read More." href="newsArticle1.html" class="readMore">
+                            </div>
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+                <td>
+                    <div class="newsArticle" style="border: 5px solid limegreen; display: flex; width: 600px; height: 400px;">
+                        <a href="newsArticle2.html" style="text-decoration: none; display: flex;">
+                            <img src="HTMLImages/CodingKids.jpg" width="400" height="400" style="margin-right: 30px;">
+                            <div>
+                                <h3 style="text-align: left;">15th January 2024.</h3>
+                                <h3 style="text-align: left;">New Generation School Opened A New Coding Program For Kids Who Loves Coding.</h3>
+                                <p style="text-align: left; color:rgb(0, 199, 132); font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 14px"> NGS-KIDSCODE - a new program created by the New Generation School - for youngsters who wants to develop their coding skills at a young age. This program is designed as extra classes that teaches many famous programming languages like Python, HTML, CSS...</p>
+                                <input type="button" value="Read More." href="newsArticle1.html" class="readMore">
+                            </div>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    
+    </div>
+    <style>
+        h1 {
+            color:rgb(0, 199, 132);
+            text-align: center;
+            margin-top: 30px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .imageNGS {
+            float: left;
+        }
+        .newsArticle {
+            background-color: darkgreen;
+            float: left;
+            margin-top:20px;
+            h3 {
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color:lime;
+            }
+        }
+        .articles{
+            align-items: left;
+            margin-left: 100px;
+            float:left;
+        }
+        .readMore{
+            background-color: green; 
+            border: none; 
+            color: white;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+            padding: 10px 20px; 
+            text-align: center; 
+            text-decoration: none; 
+            display: inline-block; 
+            font-size: 16px; 
+            cursor: pointer; 
+            border-radius: 4px; 
+        }
+
+    </style>
+</body>
+</html>
